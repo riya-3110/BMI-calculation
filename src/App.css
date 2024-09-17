@@ -1,0 +1,87 @@
+.container {
+  background: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #131313;
+  box-shadow: 0 10px 20px rgba(255, 244, 255, 0.1);
+  padding: 25px 50px;
+}
+
+.container h1 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.container .main-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100%;
+}
+
+.container .main-container .input-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+}
+
+.container .main-container .input-container .input-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.container .main-container .input-container .input-field label {
+  font-size: 15px;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.container .main-container .input-container .input-field input {
+  height: 30px;
+  padding: 20px 40px 20px 20px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  outline: none;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.container .main-container .input-container .input-field input:focus {
+  border: 1px solid #131313;
+}
+
+.container .main-container .btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.container .main-container .btn-container .btn {
+  margin: 20px auto;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  padding: 10px 30px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s ease;
+  color: #0791b7;
+}
+
+.container .main-container .btn-container .btn:hover {
+  background-color: #0791b7;
+  color: #fff;
+  border: 1px solid #131313;
+}
+
+.container .main-container .center {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.container .main-container .center p {
+  color: #ffffff;
+  margin-top: 5px;
+  font-size: 14px;
+  background: #0791b7;
+}
