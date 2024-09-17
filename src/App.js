@@ -7,7 +7,7 @@ function App() {
   const [bmi, setBmi] = useState("");
   const [message, setMessage] = useState("");
 
-  //  bmi =(weight/(height**2)*703) this is in INCHES
+  //  bmi =(weight/(height**2)*703) 
   function calBmi(e) {
     e.preventDefault();
 
